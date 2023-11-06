@@ -1,0 +1,8 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+file= pd.read_csv('4LAC_DR2_sel.csv')
+
+print(file.columns)
+
+print(file.iloc[10:20])
